@@ -1,6 +1,26 @@
 body {
-    background-color: beige;
+    background-color: #CCC;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
 }
+header {
+    background-color: rgb(22, 214, 228);
+}
+
+section {
+    background-color: rgb(223, 139, 211);
+}
+
+aside {
+    background-color: rgb(240, 180, 17);
+}
+
+footer {
+    background-color: rgb(245, 8, 8);
+}
+
+/*Flex*/
 
 .flex-container{
     display: flex;
@@ -23,6 +43,7 @@ body {
     position: relative;
     width: 212px;
     color: whitesmoke;
+    text-decoration: none;
    
 
 }
