@@ -1,71 +1,43 @@
-body {
-    background-color: #CCC;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-}
 header {
-    background-color: rgb(22, 214, 228);
+    color: white; background-color:rgb(17, 163, 115);
+    padding: 20px;
 }
 
-section {
-    background-color: rgb(223, 139, 211);
+header h1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-aside {
-    background-color: rgb(240, 180, 17);
+nav{
+    background-color: #43919B; color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#P1 {
+color: whitesmoke;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article {
+    grid-column: 1/4;
+    background-color: #30AADD;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+aside{
+    background-color: bisque;
+    color: white;
+    padding: 30px;
+    grid-column: 4/5;
 }
 
 footer {
-    background-color: rgb(245, 8, 8);
+background-color: rgb(17, 163, 115);
+color: white;
+text-align: center;
+padding: 10 px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-/*Flex*/
-
-.flex-container{
-    display: flex;
-    background: #333333;
-    border-bottom: 2px solid #649300;
-    float: left;
-    min-height: 44px;
-    padding: 0 28px;
-    position: relative;
-    width: 956px;
-    z-index: 500;
-}
-
-.caja {
-    display: block;
-    height: auto;
-    line-height: 39px;
-    margin: 0;
-    min-height: 39px;
-    position: relative;
-    width: 212px;
-    color: whitesmoke;
-    text-decoration: none;
-   
-
-}
-
-.flex-container1{
-    display: flex;
-    background: #333333;
-    border-bottom: 2px solid #649300;
-    float: left;
-    min-height: 44px;
-    padding: 0 28px;
-    position: relative;
-    width: 956px;
-    z-index: 500;
-}
-.Menu {
-    display: block;
-    height: auto;
-    line-height: 39px;
-    margin: 0;
-    min-height: 39px;
-    position: relative;
-    width: 212px;
-    color: whitesmoke;
-}   
