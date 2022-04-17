@@ -3,18 +3,21 @@ header {
     flex-direction: row;
     justify-content: space-between;
     color: white; background-color:rgb(17, 163, 115);
-    padding: 20px;
+    padding-left: 40px;
+    padding-bottom: 5px;
 }
 
 #logoimage{
-    padding: 30px;
+    padding: 40px;
 }
 
 body {
     background-color: #CCC;
     width: 90%;
-    max-width: 1000px;
+    max-width: 1280px;
     margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 header h1{
@@ -22,8 +25,9 @@ header h1{
 }
 
 nav{
-    background-color: #43919B; color: white;
+    background-color: rgb(26, 27, 27); color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 40px;
 }
 
 .menu{
@@ -37,18 +41,18 @@ nav{
     font-size: small;
     width: 740px;
     height: 56px;
+    list-style-type: none;
 }   
 
 .menu>li{
     float: left;
-    text-decoration: none;
 }
 
 .menu>li a{
     background-color: rgb(26, 27, 27);
     color: white;
     text-decoration: none;
-    padding: 20px 80px;
+    padding: 20px 56px;
     display: block;
 }
 
@@ -88,6 +92,7 @@ article {
     grid-column: 1/4;
     background-color:azure;
     font-family: Verdana, Geneva, Tahoma, sans-serif; color: black;
+    padding-left: 40px;
 
 }
 
