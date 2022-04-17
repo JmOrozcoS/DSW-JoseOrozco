@@ -35,7 +35,9 @@ nav{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
-}
+    width: 740px;
+    height: 56px;
+}   
 
 .menu>li{
     float: left;
