@@ -1,15 +1,75 @@
 header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     color: white; background-color:rgb(17, 163, 115);
     padding: 20px;
 }
 
+#logoimage{
+    padding: 30px;
+}
+
+body {
+    background-color: #CCC;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
 header h1{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav{
     background-color: #43919B; color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 20 px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+.menu>li{
+    float: left;
+}
+
+.menu>li a{
+    background-color: rgb(26, 27, 27);
+    color: white;
+    text-decoration: none;
+    padding: 20px 80px;
+    display: block;
+}
+
+.menu li a:hover{
+    background-color: rgb(17, 163, 115);
+}
+
+.menu li ul{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu li:hover >ul{
+    display: block;
+}
+
+.menu li ul li{
+    position: relative;
+}
+.menu li ul li ul{
+    right: 140px;
 }
 
 #P1 {
