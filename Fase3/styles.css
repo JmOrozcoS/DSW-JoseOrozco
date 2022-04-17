@@ -41,6 +41,7 @@ nav{
 
 .menu>li{
     float: left;
+    text-decoration: none;
 }
 
 .menu>li a{
@@ -75,7 +76,7 @@ nav{
 }
 
 #P1 {
-color: whitesmoke;
+color: black;
 }
 
 section{
@@ -85,14 +86,15 @@ section{
 }
 article {
     grid-column: 1/4;
-    background-color: #30AADD;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; color: black;
+
 }
 
 aside{
     background-color: bisque;
     color: white;
-    padding: 30px;
+    padding: 10px;
     grid-column: 4/5;
 }
 
