@@ -1,23 +1,31 @@
+* {
+    margin: 0px;
+}
+
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     color: white; background-color:rgb(17, 163, 115);
-    padding-left: 40px;
-    padding-bottom: 5px;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #logoimage{
-    padding: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+    width: 66px;
+    height: 72px;
 }
 
 body {
     background-color: #CCC;
     width: 90%;
-    max-width: 1280px;
+    max-width: 1024px;
     margin: auto;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 header h1{
@@ -25,9 +33,11 @@ header h1{
 }
 
 nav{
-    background-color: rgb(26, 27, 27); color: white;
+    background-color: rgb(1, 65, 65); color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-left: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
 }
 
 .menu{
@@ -35,25 +45,29 @@ nav{
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    padding: 0px 20 px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
     width: 740px;
     height: 56px;
     list-style-type: none;
+    margin-bottom: 2px;
+    
 }   
 
 .menu>li{
     float: left;
 }
 
+
 .menu>li a{
-    background-color: rgb(26, 27, 27);
+    background-color: rgb(1, 65, 65);
     color: white;
     text-decoration: none;
     padding: 20px 56px;
     display: block;
+    border-color: white;
+    border-radius: 5px;
 }
 
 .menu li a:hover{
@@ -92,15 +106,26 @@ article {
     grid-column: 1/4;
     background-color:azure;
     font-family: Verdana, Geneva, Tahoma, sans-serif; color: black;
-    padding-left: 40px;
+    padding-left: 30px;
 
 }
 
+.tcontenido>li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(17, 163, 115);
+}
+
+#imgprofile{
+    border-radius: 50%;
+    width: 48%;
+    height: 52%;
+}
+
 aside{
-    background-color: bisque;
-    color: white;
+    background-color: azure;
+    color: black;
     padding: 10px;
     grid-column: 4/5;
+    padding-right: 30px;
 }
 
 footer {
@@ -109,4 +134,6 @@ color: white;
 text-align: center;
 padding: 10 px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
 }
